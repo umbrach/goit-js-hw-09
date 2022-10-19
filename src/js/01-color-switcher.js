@@ -8,6 +8,7 @@ let timeId = null;
 
 startBtn.addEventListener('click', () => {
   timeId = setInterval(() => {
+    startBtn.disabled = true;
     const newColor = getRandomHexColor();
     document.body.style.backgroundColor = newColor;
   }, 1000);
@@ -15,4 +16,5 @@ startBtn.addEventListener('click', () => {
 
 stopBtn.addEventListener('click', () => {
   clearInterval(timeId);
+  startBtn.disabled = false;
 });
