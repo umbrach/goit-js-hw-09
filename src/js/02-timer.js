@@ -87,10 +87,3 @@ const timer = new Timer();
 flatpickr(inputField, options);
 
 startBtn.addEventListener('click', () => timer.start());
-
-// const running = startBtn.addEventListener('click', () => {
-//     startBtn.disabled = true;
-//     const startBtnClick = setInterval(() => {
-//         const timer = selectedDates[0] - new Date();
-//     }, 1000)
-// })
