@@ -16,3 +16,61 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* ------------------Timer-styles---------------------- */
+
+input {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #03a1fc;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #03a1fc;
+  border-radius: 8px;
+  width: 200px;
+  height: 40px;
+}
+
+button {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #de3750;
+  border-radius: 8px;
+
+  background-color: #de3750;
+  color: white;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 150px;
+  border: 2px solid #de3750;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.value {
+  font-size: 80px;
+  color: #de3750;
+}
+
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #03a1fc;
+}
