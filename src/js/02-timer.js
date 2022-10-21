@@ -10,7 +10,7 @@ const timeMins = document.querySelector('[data-minutes]');
 const timeSecs = document.querySelector('[data-seconds]');
 
 startBtn.disabled = true;
-
+// const selectedTime = null;
 const options = {
   enableTime: true,
   time_24hr: true,
