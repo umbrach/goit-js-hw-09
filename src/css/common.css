@@ -19,7 +19,7 @@ img {
 
 /* ------------------Timer-styles---------------------- */
 
-input {
+.timer_input {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: #03a1fc;
@@ -32,7 +32,7 @@ input {
   height: 40px;
 }
 
-button {
+.timer_btn {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
